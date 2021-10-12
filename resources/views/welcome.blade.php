@@ -101,7 +101,7 @@
 
         @if(session('tournament') && $perticipants->count() != 1)
             <script>
-                var duration = 1
+                var duration = 5
                 var countDownDate = new Date();
                 countDownDate.setMinutes(countDownDate.getMinutes() + parseInt(duration));
                 var x = setInterval(function () {  
